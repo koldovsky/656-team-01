@@ -1,0 +1,57 @@
+.header_banner_img img {
+    width: 100%;
+    height: 900px;
+}
+.header_nav_menu{
+    width: 100%;
+    height: 85px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #23262d;
+    
+}
+.header_nav_logo { 
+    position: relative;
+    left: 210px;
+    top: 3px
+   }
+  
+    .header__top-nav-menu a{ 
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;    
+        color: #bababa;
+        flex: 1 1 auto;
+        margin: 0 15px;
+        font-size: 15px;
+        position: relative;
+        left: 20px;
+        
+  } 
+  .header__top-nav-menu a:hover{ 
+       
+    color: whitesmoke;
+    
+}
+  a{
+     text-decoration: none; 
+  }
+  .header__top-nav-phone-call-us{
+    font-family: 'Roboto', sans-serif; 
+      font-weight: bold;
+      color: #cee002;
+      font-size: 15px;
+  }
+  .header__top-nav-phone {
+      position: relative;
+      right: 200px;
+    color: #bababa;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+  }
+  .header__top-nav-phone a{
+  color: #bababa;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+ 
