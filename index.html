@@ -3,34 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/header_nav_menu.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@500&display=swap" rel="stylesheet">
     <title>ZEN Cottages</title>
   </head>
   <body>
     <!--Volodimir Babinchuk-->
     <header class="header">
-      <nav class="header_nav_menu">
-        <div class="header_nav_logo" style="background-color: #23262d">
-          <img src="img/logo1.svg" width="200" alt="ZEN Cottages" />
+      <section class="header_nav_menu">
+        <div class="header_nav_logo">
+          <a href="#"><img src="img/logo1.svg" width="210" alt="ZEN Cottages" /></a>
         </div>
+      
         <div class="header__top-nav-menu">
-          <a href="#about">About Us</a>
-          <a href="#services">Services</a>
-          <a href="#cottages">Cottages</a>
-          <a href="#testimonials">Testimonials</a>
-          <a href="#contacts">Contacts</a>
+          <a href="#about" class="nav_url">About Us</a>
+          <a href="#services" class="nav_url">Services</a>
+          <a href="#cottages" class="nav_url">Cottages</a>
+          <a href="#testimonials" class="nav_url">Testimonials</a>
+          <a href="#contacts" class="nav_url">Contacts</a>
         </div>
+      
         <div class="header__top-nav-phone">
-          <span class="header__top-nav-phone-call-us">CALL US</span> +1 (234)
-          567 89 00
+          <span class="header__top-nav-phone-call-us">CALL US</span>
+          <a href="tel: +1 (234)567 89 00" data-action="phone">+1 (234) 567 89 00</a>
+          
         </div>
+      </section>
+    </header>
         <div class="header__banner">
-          <img src="img/home.webp" alt="Home" width="400" height="100" />
+          <div class="header_banner_img">
+          <img src="img/home.webp" alt="Home">
+        </div>
           <h1>Zen Cottages</h1>
           <p class="header__banner-subheadeing">We can build your dream</p>
           <button>Request a call</button>
         </div>
-      </nav>
-    </header>
+      
+    
     <!--Volodimir Babinchuk End -->
     <main>
       <!--Irina Venzheha-->
