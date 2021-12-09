@@ -37,3 +37,9 @@
     grid-template-columns: 1fr 1fr;
     }
 }
+.havent_you_decided__icon {
+   color: #cee002;
+   padding-top: 90px;
+    padding-bottom: 90px;
+    font-size: 17px; 
+}
