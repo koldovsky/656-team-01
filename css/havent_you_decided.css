@@ -39,7 +39,6 @@
 }
 .havent_you_decided__icon {
    color: #cee002;
-   padding-top: 90px;
-    padding-bottom: 90px;
-    font-size: 17px; 
+    width: 26px; 
+    box-sizing: border-box;
 }
