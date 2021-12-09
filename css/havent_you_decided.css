@@ -9,5 +9,31 @@
 }
 .havent-you-decided-section-content {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px 
+}
+        @media (min-width: 992px) {
+        .havent-you-decided-section-content  {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+    @media (min-width: 767px) {
+        .havent-you-decided-section-content  {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr;
+        }
+    }
+.havent-you-decided-section__header {
+    display: flex;
+    justify-content: space-around;
+}
+@media (min-width: 768px) {
+    .havent-you-decided-section__header {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    }
 }
