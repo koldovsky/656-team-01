@@ -26,12 +26,13 @@
     justify-content: center;
 }
 .havent-you-decided-section-content__item {
-    padding: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-color: rgba(255, 255, 255, 0.02);
+    box-sizing: border-box;
+    font-size: 17px;
+    background-color: rgba(255, 255, 255);
     text-align: center;
     width: 474px;
     height: 272px;
