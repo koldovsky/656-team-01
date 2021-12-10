@@ -9,7 +9,11 @@
 }
 .havent-you-decided-section-content {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 60px;
 
 }
 .havent-you-decided-section__header {
@@ -31,7 +35,7 @@
     flex-direction: column;
     box-sizing: border-box;
     font-size: 17px;
-    background-color: rgb(107, 107, 107);
+    background-color: rgb(61, 61, 61);
     width: 474px;
     height: 272px;
     margin: 20;
