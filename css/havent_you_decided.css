@@ -8,34 +8,17 @@
     color: #cee002;
 }
 .havent-you-decided-section-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 30px 
+    display: flex;
+    flex-direction: column;
+    background-color: lightslategrey;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    padding: 15px;
 }
-        @media (min-width: 992px) {
-        .havent-you-decided-section-content  {
-        display: grid;
-        gap: 10px;
-        grid-template-columns: 1fr 1fr 1fr;
-        }
-    }
-    @media (min-width: 767px) {
-        .havent-you-decided-section-content  {
-        display: grid;
-        gap: 10px;
-        grid-template-columns: 1fr 1fr;
-        }
-    }
 .havent-you-decided-section__header {
     display: flex;
     justify-content: space-around;
-}
-@media (min-width: 768px) {
-    .havent-you-decided-section__header {
-    display: grid;
-    gap: 10px;
-    grid-template-columns: 1fr 1fr;
-    }
 }
 .havent_you_decided__icon {
     color: #cee002;
@@ -48,5 +31,8 @@
 }
 .havent-you-decided-section-content__item {
     padding: 15px;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
