@@ -8,17 +8,34 @@
     color: #cee002;
 }
 .havent-you-decided-section-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding-top: 60px;
-    padding-bottom: 60px;
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px 
 }
+        @media (min-width: 992px) {
+        .havent-you-decided-section-content  {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+    @media (min-width: 767px) {
+        .havent-you-decided-section-content  {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr;
+        }
+    }
 .havent-you-decided-section__header {
     display: flex;
     justify-content: space-around;
+}
+@media (min-width: 768px) {
+    .havent-you-decided-section__header {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    }
 }
 .havent_you_decided__icon {
     color: #cee002;
@@ -30,15 +47,14 @@
     justify-content: center;
 }
 .havent-you-decided-section-content__item {
+    padding: 15px;
     display: flex;
+    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    box-sizing: border-box;
-    font-size: 17px;
-    background-color: #23262d
-    width: 474px;
-    height: 272px;
-    margin: 20;
+    flex-wrap: wrap;
+    width: 380px;
+    height: 270px;
+    position: relative;
     min-width: 320px;
     padding-top: 90px;
     padding-bottom: 90px;
