@@ -1,0 +1,35 @@
+body {
+    background-color: #23262d;
+}
+p {
+    font-size: 17px;
+    line-height: 1.5;
+    font-family: Roboto, sans-serif;
+    color: rgb(132,132,132);
+}
+.description {
+    color:#cee002;
+}
+.cottages-slides {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.photo {
+    object-fit:cover; 
+    object-position:48.064% 50.587%;
+    max-width: 460px;
+}
+.yellow {
+    color: yellow;
+    text-transform: uppercase;
+}
+h3 {
+    color: white;
+}
+.arrow {
+    height: 18px;
+}
+.contact-form {
+    color: white;
+    font-size: 17px;
+}
