@@ -10,11 +10,8 @@
 .havent-you-decided-section-content {
     display: flex;
     flex-direction: column;
-    background-color: lightslategrey;
-    text-align: center;
-    width: 250px;
-    height: 250px;
-    padding: 15px;
+    justify-content: space-around;
+
 }
 .havent-you-decided-section__header {
     display: flex;
@@ -35,4 +32,9 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    background-color: rgb(72, 72, 73);
+    text-align: center;
+    width: 350px;
+    height: 250px;
+    padding: 15px;
 }
