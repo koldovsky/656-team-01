@@ -1,4 +1,7 @@
 .consultation {
-  background-color:rgba(49, 38, 38, 0.719);
+  background-color: #23262d;
   color: white;
+}
+input:focus {
+  border: 5px solid;
 }
