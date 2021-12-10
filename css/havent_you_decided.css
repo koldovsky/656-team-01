@@ -35,8 +35,11 @@
     flex-direction: column;
     box-sizing: border-box;
     font-size: 17px;
-    background-color: rgb(61, 61, 61);
+    background-color: #23262d
     width: 474px;
     height: 272px;
     margin: 20;
+    min-width: 320px;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
