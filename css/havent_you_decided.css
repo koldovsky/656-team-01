@@ -7,11 +7,6 @@
 .yellow-letters {
     color: #cee002;
 }
-.havent-you-decided-section-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 30px 
-}
         @media (min-width: 992px) {
         .havent-you-decided-section-content  {
         display: grid;
@@ -56,4 +51,5 @@
     position: relative;
     padding-top: 30px;
     padding-bottom: 30px;
+    background: rgba(255, 255, 255, 0.02);
 }
