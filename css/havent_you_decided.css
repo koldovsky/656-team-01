@@ -34,7 +34,7 @@
 }
 .havent_you_decided__icon {
     color: #cee002;
-    width: 26px; 
+    width: 40px; 
     box-sizing: border-box;
     border-radius: 30px;
     background: rgba(255, 255, 255, 0.02);
@@ -44,12 +44,14 @@
 .havent-you-decided-section-content__item {
     padding: 15px;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 270px;
     position: relative;
     padding-top: 30px;
     padding-bottom: 30px;
     background: rgba(255, 255, 255, 0.02);
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: -15px;
+    margin-right: -15px;
 }
