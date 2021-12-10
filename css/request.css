@@ -5,3 +5,25 @@
 input:focus {
   border: 5px solid;
 }
+{
+  margin: 0px;
+  padding: 0px;
+}
+.request{
+  width: 1000px;
+  height: 100px;
+  padding: 5px;
+}
+.consultation {
+  float: left;
+ }
+.form {
+  float: right;
+}
+.send{
+    height:30px;
+    width:180px;
+}
+input[type=text]{
+   width:180px;
+}
