@@ -1,6 +1,8 @@
+.request {
+  background-color:rgba(255, 255, 255, 0.03)
+}
 .consultation {
-  background-color:rgb(132,132,132);
-  color: white;
+   color: white;
 }
 input:focus {
   border: 5px solid;
