@@ -23,7 +23,7 @@ input:focus {
 .send{
     height:30px;
     width:180px;
-    color:#cee002!important; 
+    background-color:#cee002!important; 
 }
 input[type=text]{
    width:180px;
