@@ -1,26 +1,13 @@
 .havent-you-decided-section a {
-    display: grid;
-    grid-template-columns: 1fr;
     background-color:#23262d;
     font-family: 'Roboto';
     color: rgb(132,132,132)
 }
-    @media (min-width: 767px) {
-        .havent-you-decided-section  {
-        display: grid;
-        gap: 10px;
-        grid-template-columns: 1fr 1fr;
-        }
-    }
-    @media (min-width: 992px) {
-        .havent-you-decided-section  {
-        display: grid;
-        gap: 10px;
-        grid-template-columns: 1fr 1fr 1fr;
-        }
-    }
 .yellow-letters {
     color: #cee002;
+}
+.white-letters {
+    color: #fff;
 }
     @media (min-width: 767px) {
         .havent-you-decided-section-content  {
