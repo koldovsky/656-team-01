@@ -1,7 +1,42 @@
+.request {
+  background-color:rgba(255, 255, 255, 0.03)
+}
 .consultation {
-  background-color: #23262d;
-  color: white;
+   color: white;
 }
 input:focus {
   border: 5px solid;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.request{
+  width: 1000px;
+  height: 100px;
+  padding: 5px;
+}
+.consultation {
+  float: left;
+ }
+.form {
+  float: right;
+}
+.send{
+    height:30px;
+    width:180px;
+    background-color:#cee002!important; 
+}
+input[type=text]{
+   width:180px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+  margin: 0%;
+  padding: 0%;
+}
+.container_nav{
+  max-width: 1246px;
+  margin: auto;
 }

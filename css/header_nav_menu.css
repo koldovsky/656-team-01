@@ -1,91 +1,82 @@
-*{
-  margin: 0%;
+.header-nav-logo img{
+  width: 220px;
+  padding-left: 20px;
+  padding-top: 20px;;
 }
-.header_banner_img img {
-    width: 100%;
-    max-height: 840px;
+
+.header__nav{
+display: flex;
+flex-direction: column;
+padding-left: 20px;
 }
-.header_nav_menu{
-    width: 100%;
-    height: 85px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #23262d;
-    
-}
-.header_nav_logo { 
-    position: relative;
-    left: 210px;
-    top: 3px
-   }
-  
-    .header__top-nav-menu a{ 
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;    
-        color: #bababa;
-        flex: 1 1 auto;
-        margin: 0 15px;
-        font-size: 15px;
-        position: relative;
-        left: 20px;
-        
-  } 
-  .header__top-nav-menu a:hover{ 
-       
-    color: whitesmoke;
-    
-}
-  a{
-     text-decoration: none; 
-  }
-  .header__top-nav-phone-call-us{
-    font-family: 'Roboto', sans-serif; 
-      font-weight: bold;
-      color: #cee002;
-      font-size: 15px;
-  }
-  .header__top-nav-phone {
-      position: relative;
-      right: 200px;
-    color: #bababa;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-  }
-  .header__top-nav-phone a{
+.header-nav-menu-item{
+  text-decoration: none;
   color: #bababa;
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-size: 15px;
+  font-weight: bold;
 }
-.header_banner_h1{
-  font-family: 'Poppins',sans-serif;
-    font-style: normal;
-    text-transform: none;
-    position: absolute;
-  top: 340px;
-  left: 400px;
-    
+
+.header-nav-menu-item:hover{
+  color: white;
 }
-.header_banner_h1_first-name{
-  color:#cee002;
-  font-size: 100px;
-  padding: 0px 20px 0px 0px;
-  
+.header__top-nav-phone-call-us{
+  color: rgb(206, 224, 2);
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
 }
-.header_banner_text_h1{
-  color:azure;
-  font-size: 100px;
-  
+
+.phone_number a{
+  text-decoration: none;
+  color: #bababa;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 5px;
+}
+
+.header__banner{
+  background-image: url(../img/home.webp);
+  background-size: cover;
+  min-height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .header__banner-subheadeing{
-  font-family: 'Roboto', sans-serif;
+  padding-right: 10px;
+  padding-top: 30px;
   color: #bababa;
-  font-weight: 400;
-  font-size: 20px;
-  position: absolute;
-  top: 500px;
-  left: 400px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
 }
+
+.header_banner_h1{
+  color: rgb(206, 224, 2);
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.header_banner_h2{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.header_banner_h1-h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .header_banner_button{
   font-family: 'Roboto',sans-serif;
     font-style: normal;
@@ -97,13 +88,38 @@
     
 width: 170px;
 height: 55px;
-position: absolute;
-  top: 570px;
-  left: 400px;
   transition: background 0.5s ease;
   border-color: transparent;
-}
-.header_banner_button:hover{
+  margin-right: 90px;
+  margin-top: 30px;
   cursor: pointer;
-  background: white;
+}
+
+.header_banner_button:hover{
+  background-color: white;
+}
+
+@media (min-width: 900px){
+  .header-nav-menu > .container_nav{
+     display: flex;
+     max-height: 100px;
+
+  }
+  .header-nav-logo img{
+    min-height: 60px;
+  }
+  .header__banner{
+    min-height: 900px;
+
+  }
+  .header__nav{
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+  .header-nav-logo img{
+   padding-top: 10px;
+  }
 }

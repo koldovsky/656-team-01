@@ -6,46 +6,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/main.css">
   <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@500&display=swap"
-    rel="stylesheet">
   <title>ZEN Cottages</title>
 </head>
 
 <body>
   <!--Volodimir Babinchuk-->
-  <header class="header">
-    <section class="header_nav_menu">
-      <div class="header_nav_logo">
-        <a href="#"><img src="img/logo1.svg" width="210" alt="ZEN Cottages" /></a>
-      </div>
-
-      <div class="header__top-nav-menu">
-        <a href="#about" class="nav_url">About Us</a>
-        <a href="#services" class="nav_url">Services</a>
-        <a href="#cottages" class="nav_url">Cottages</a>
-        <a href="#testimonials" class="nav_url">Testimonials</a>
-        <a href="#contacts" class="nav_url">Contacts</a>
-      </div>
-
-      <div class="header__top-nav-phone">
-        <span class="header__top-nav-phone-call-us">CALL US</span>
-        <a href="tel:+1 (234)567 89 00" data-action="phone">+1 (234) 567 89 00</a>
-
-      </div>
-    </section>
-
+  <header id="header">
+      <nav class="header-nav-menu">
+          <div class="container_nav">
+            <label class="burger-icon" for="burger-checkbox">☰</label>
+            <input type="checkbox" id="burger-checkbox">
+  <div class="header-nav-logo">
+    <img src="img/logo1.svg" alt="ZEN Cottages">
+  </div>
+  <div class="header__nav">
+  <a href="#about-us" class="header-nav-menu-item">About Us</a>
+  <a href="#services" class="header-nav-menu-item">Services</a>
+  <a href="#cottages" class="header-nav-menu-item">Cottages</a>
+  <a href="#testimonials" class="header-nav-menu-item">Testimonials</a>
+  <a href="#contacts" class="header-nav-menu-item">Contacts</a>
+  <div class="phone_number">
+  <span class="header__top-nav-phone-call-us">CALL US</span><a href="tel:+1 (234)567 89 00" data-action="phone">+1 (234) 567 89 00</a>
+</div>
+</div>
+</div>
+  </nav>
     <div class="header__banner">
-      <div class="header_banner_img">
-        <img src="img/home.webp" alt="Home">
-      </div>
-      <div class="header_banner_h1">
-        <h1 class="header_banner_text_h1"><span class="header_banner_h1_first-name">ZEN</span>Cottages</h1>
-      </div>
-      <p class="header__banner-subheadeing">We can build your dream home.</p>
+      <div class="header_banner_h1-h2">
+      <h1 class="header_banner_h1">ZEN</h1><h2 class="header_banner_h2">Cottages</h2>
+    </div>
+   <p class="header__banner-subheadeing">We can build your dream home.</p>
       <button class="header_banner_button">Request a call</button>
     </div>
+  </div>
   </header>
   <!--Volodimir Babinchuk End -->
   <main>
@@ -204,19 +197,24 @@
     </section>
 
     <!--Yurii Vasylenko Start -->
-    <section class="consultation">
-      <link rel="stylesheet" href="css/request.css" <h3>Request<span class="color_font" style="color">free
-        consultation.</span></h3>
-      <link rel="stylesheet" href="css/color_free_consult.css" </h3>
-      <p>
-        If you have any questions, enter your phone below so we could get in
-        touch with you as soon as possible.
-      </p>
-      <form action="https://formspree.io/f/xlezrqon" method="POST">
-        <input name="phone" type="text" placeholder="Phone" />
-        <button>Send</button>
-      </form>
-    </section>
+    <div class="request">
+      <div class="consultation">
+        <link rel="stylesheet" href="css/request.css" <h3>Request<span class="color_font" style="color">free
+          consultation.</span></h3>
+        <link rel="stylesheet" href="css/color_free_consult.css" </h3>
+        <p>
+          If you have any questions, enter your phone below so we could <br> get in
+          touch with you as soon as possible.
+        </p>
+      </div>
+      <div class="form">
+        <form action="https://formspree.io/f/xlezrqon" method="POST">
+          <input name="phone" type="text" placeholder="Phone" /><br><br>
+          <button class="send">Send</button>
+        </form>
+      </div>
+    </div>
+    
     <!--Yurii Vasylenko End-->
     <!--Katerina Aldokhina Start -->
     <div class="cottages">
