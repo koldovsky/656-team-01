@@ -46,3 +46,8 @@
 .nn > * {
     display: inline-block;
 }
+@media (max-width: 380px) {
+    .cottages, .photo-container, .product-photo, .wrapper {
+        max-width: 360px;
+}
+}
