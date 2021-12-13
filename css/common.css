@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@500&display=swap');
 body {
     background-color: #23262d;
 }
 p {
     font-size: 17px;
     line-height: 1.5;
-    font-family: Roboto, sans-serif;
-    color: rgb(132,132,132);
+    font-family: 'Roboto', sans-serif;
+    color: #848484;
 }
 h3 {
     color: white;
+    
 }
