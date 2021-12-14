@@ -8,8 +8,8 @@
 }
 
 .round-img {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
 }
 
@@ -56,7 +56,6 @@
     }
 }
 .construction-section__header {
-   display: flex;
    justify-content: space-around;
    font-size: 25px; 
    color: white;
@@ -68,7 +67,7 @@
    position: static;
 
 }
-.constracrion-section-title__header {
+.constracrion-section__header-media {
     display: flex;
 }
     
