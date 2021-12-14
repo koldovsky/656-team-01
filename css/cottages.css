@@ -3,15 +3,20 @@
 .cottages-slides {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    background-color: gray;
+    grid-gap: 5px;
 }
 .name-and-price {
     padding: 10px;
 }
 .product-photo {
-    object-fit:cover; 
-    object-position:48.064% 50.587%;
-    max-width: 460px;
+    object-fit: cover;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
 }
+
 .cottage-name-color {
     color: yellow;
     text-transform: uppercase;
@@ -37,17 +42,27 @@
 .description{
     margin-bottom: 32px;
 }
-.photo-container {
-    max-height: 316.69px;
-}
+
 .small-icon {
     height: 18px;
 }
 .nn > * {
     display: inline-block;
 }
-@media (max-width: 380px) {
-    .cottages, .photo-container, .product-photo, .wrapper {
-        max-width: 360px;
+
 }
+@media (max-width: 320px) {
+    .cottages-slides {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 481px) {
+    .cottages-slides {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 769px) {
+    .cottages-slides {
+        grid-template-columns: 1fr;
+    }
 }
