@@ -3,7 +3,6 @@
 .cottages-slides {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: gray;
     grid-gap: 5px;
 }
 .name-and-price {
