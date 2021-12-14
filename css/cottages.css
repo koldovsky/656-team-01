@@ -1,67 +1,85 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@500&display=swap');
 .cottages-slides {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 5px;
-}
-.name-and-price {
-    padding: 10px;
-}
-.product-photo {
-    object-fit: cover;
-    display: block;
+	display: grid;
+	grid-template-columns: 1fr;
     max-width: 100%;
-    height: auto;
-    box-sizing: border-box;
-}
+	}
 
-.cottage-name-color {
-    color: yellow;
-    text-transform: uppercase;
-}
-.arrow {
-    height: 18px;
-}
-.contact-form {
-    color: white;
-    font-size: 14px;
-    font-family: 'Poppins', sans-serif;
-}
-.wrapper {
-    display: flex;
-    padding: 10px;
+    .slide {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .photo-container {
+        width: 96vw;
+        height: 60vw;
+    }
+
+    .product-photo {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+	
+	.wrapper {
+	display: flex;
     justify-content: space-evenly;
-}
-.wrapper div {
     width: 100%;
-    text-align: left;
-}
+    margin-top: 15px;
+    margin-bottom: 15px;
+	}
 
-.description{
-    margin-bottom: 32px;
-}
+    .wrapper div {
+        width: 100%;
+        text-align: left;
+        width: 100%;
+    }
 
-.small-icon {
-    height: 18px;
-}
-.nn > * {
-    display: inline-block;
-}
+    .cottage-name-color {
+        color: yellow;
+        text-transform: uppercase;
+    }
 
-}
-@media (max-width: 320px) {
-    .cottages-slides {
-        grid-template-columns: 1fr;
+    .heading-elements > * {
+        display: inline-block;
+        font-size: 15px;
+        vertical-align: middle;
+
     }
-}
-@media (max-width: 481px) {
-    .cottages-slides {
-        grid-template-columns: 1fr;
+    .small-icon {
+        height: 18px;
     }
-}
-@media (max-width: 769px) {
-    .cottages-slides {
-        grid-template-columns: 1fr;
+    .description{
+        margin-bottom: 32px;
+        width: 100%;
     }
-}
+    .contact-form {
+        color: white;
+        font-size: 14px;
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
+    }
+    .arrow-position {
+        vertical-align: middle;
+    }
+
+    @media (min-width: 700px) {
+        .cottages-slides {
+            grid-template-columns: 1fr 1fr;
+        }
+        .photo-container {
+            object-fit: cover;
+            width: 300vw;
+            height: 20vw;
+            width: 100%;
+        }
+    }
+    @media (min-width: 991px) {
+        .cottages-slides {
+            grid-template-columns: 1fr 1fr 1fr;        
+        }
+        .photo-container {
+            object-fit: cover;
+            width: 30vw;
+            height: 20vw;
+        }
+    }
