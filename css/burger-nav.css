@@ -22,6 +22,25 @@
     .burger-icon {
         display: none;
     }
+    .header__nav {
+        display: flex;
+    }
     .header-nav__menu {
         display: flex;
     }
+    .header_banner_h1-h2{
+        padding-right: 400px;
+    }
+    .header_banner_h1{
+        font-size: 100px;
+    }
+    .header_banner_h2{
+        font-size: 100px;
+    }
+    .header__banner-subheadeing{
+    padding-right: 750px;
+     }
+     .header_banner_button{
+         margin-right: 830px;
+     }
+}

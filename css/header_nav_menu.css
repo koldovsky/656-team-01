@@ -68,7 +68,7 @@ padding-left: 20px;
   font-family: 'Roboto', sans-serif;
   font-size: 40px;
   font-weight: bold;
-  padding-left: 10px;
+  padding-left: 24px;
 }
 
 .header_banner_h1-h2{
@@ -110,8 +110,8 @@ height: 55px;
   }
   .header__banner{
     min-height: 900px;
-
   }
+
   .header__nav{
     flex-direction: row;
     flex: 1;
