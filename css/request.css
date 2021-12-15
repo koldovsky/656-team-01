@@ -40,3 +40,10 @@ input[type=text]{
   max-width: 1246px;
   margin: auto;
 }
+section.our_dedicated_team {
+  display: flex;
+}
+.container_we_are_happy {
+  display: grid;
+  grid-template-columns: 650px 500px;
+}
