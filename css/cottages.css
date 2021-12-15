@@ -2,11 +2,14 @@
 	display: grid;
 	grid-template-columns: 1fr;
     max-width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
 	}
 
     .slide {
         width: 100%;
         margin-bottom: 10px;
+        position: relative;
     }
 
     .photo-container {
@@ -60,6 +63,10 @@
     }
     .arrow-position {
         vertical-align: middle;
+    }
+    .choose-cottage {
+        position: absolute;
+        bottom: 5px;
     }
 
     @media (min-width: 700px) {
