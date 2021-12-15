@@ -1,0 +1,32 @@
+.section-benefits-h4 {
+    font-weight: bold;
+    color: honeydew;
+    line-height: 1.5;
+}
+.we-have {
+    color: honeydew;
+
+}
+.section-benefits-p{
+    line-height: 1.5;
+}
+
+.yellow-letters {
+    color: #cee002;
+}
+
+@media (min-width: 600px) {
+    .section-benefits {
+        display: grid;
+        gap: 5px;
+        grid-template-columns: 1fr;
+    }  
+}
+
+ @media (min-width: 980px) {
+    .section-benefits {
+        display: grid;
+        gap: 5px;
+        grid-template-columns: 2fr 1fr 1fr ;
+    }
+} 
