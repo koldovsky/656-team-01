@@ -1,0 +1,113 @@
+.showcase-grid{
+    background-color:#23262d;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-around;    
+}
+
+.link-read-more-consulting {
+    background-image: url(../img/sladder.png) ;
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+}
+
+.link-read-more-restoration {
+    background-image: url(../img/srestoration.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.link-read-more-new-home {
+    background-image: url(../img/shouse.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.link-read-more-interior {
+    background-image: url(../img/sfurniture.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@media (min-width: 300px) {
+    .showcase-grid {
+        display: grid;
+        gap: 5px;
+        grid-template-columns: 1fr;
+    }  
+}
+
+@media (min-width: 600px) {
+    .showcase-grid {
+        display: grid;
+        gap: 5px;
+        grid-template-columns: 1fr 1fr;
+    }  
+}
+
+@media (min-width: 768px) {
+    .showcase-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 900px) {
+    .showcase-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.link-read-more-consulting, 
+.link-read-more-restoration,
+.link-read-more-new-home,
+.link-read-more-interior {
+    color: rgb(132 132 132);
+    text-decoration: none;
+    font-weight: bold;
+}
+.link-read-more-consulting:hover{
+    font-weight: bold;
+    text-decoration: underline;  
+}
+
+.link-read-more-restoration:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.link-read-more-new-home:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+.link-read-more-interior:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+.showcase-h3-card {
+
+    line-height: 1.5;
+    color: honeydew;
+}
+.showcase-p-card{
+    font-size: 16px;
+    line-height: 1.5;
+
+}
