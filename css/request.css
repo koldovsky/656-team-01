@@ -1,6 +1,4 @@
-.request {
-  background-color:rgba(255, 255, 255, 0.03)
-}
+
 .consultation {
    color: white;
 }
@@ -12,9 +10,10 @@ input:focus {
   padding: 0px;
 }
 .request{
-  width: 1000px;
+  width: 950px;
   height: 100px;
-  padding: 5px;
+  padding: 60px;
+  background-color:rgba(255, 255, 255, 0.03)
 }
 .consultation {
   float: left;
@@ -46,4 +45,8 @@ section.our_dedicated_team {
 .container_we_are_happy {
   display: grid;
   grid-template-columns: 650px 500px;
+}
+img {
+  max-width: 100%;
+  height: auto;
 }
