@@ -1,8 +1,7 @@
-
 .consultation {
    color: white;
 }
-input:focus {
+.input:focus {
   border: 5px solid;
 }
 *{
