@@ -90,7 +90,7 @@
     .our_dedicated_team {
         display: grid;
         display: inline-block;
-        text-align: center
+        text-align: center;
     }
     
     .our_team {
