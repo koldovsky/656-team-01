@@ -1,51 +1,99 @@
-.consultation {
-   color: white;
-}
-.input:focus {
-  border: 5px solid;
-}
-*{
-  margin: 0px;
-  padding: 0px;
-}
-.request{
-  width: 950px;
-  height: 100px;
-  padding: 60px;
-  background-color:rgba(255, 255, 255, 0.03)
-}
-.consultation {
-  float: left;
- }
-.form {
-  float: right;
-}
-.send{
-    height:30px;
-    width:180px;
-    background-color:#cee002!important; 
-}
-input[type=text]{
-   width:180px;
-}
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-*{
-  margin: 0%;
-  padding: 0%;
-}
-.container_nav{
-  max-width: 1246px;
-  margin: auto;
-}
-section.our_dedicated_team {
-  display: flex;
-}
-.container_we_are_happy {
-  display: grid;
-  grid-template-columns: 650px 500px;
-}
-img {
-  max-width: 100%;
-  height: auto;
-}
+    .our_team {
+        position: relative;
+    }
+    
+    .consultation {
+        color: white;
+    }
+    
+    .input:focus {
+        border: 5px solid;
+    }
+    
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .request {
+        width: 950px;
+        height: 100px;
+        padding: 60px;
+        background-color: rgba(255, 255, 255, 0.03)
+    }
+    
+    .consultation {
+        float: left;
+    }
+    
+    .form {
+        float: right;
+    }
+    
+    .send {
+        height: 30px;
+        width: 180px;
+        background-color: #cee002!important;
+    }
+    
+    input[type=text] {
+        width: 180px;
+    }
+    
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+    * {
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    .container_nav {
+        max-width: 1246px;
+        margin: auto;
+    }
+    
+    section.our_dedicated_team {
+        display: flex;
+    }
+    
+    .container_we_are_happy {
+        display: grid;
+        grid-template-columns: 650px 500px;
+    }
+    
+    .img_team {
+        display: inline-block;
+        height: 294px;
+        width: 400px;
+        vertical-align: middle;
+        object-fit: contain;
+    }
+    
+    .h_wearehappy {
+        display: flex;
+        color: #fff;
+        justify-content: space-evenly;
+    }
+    
+    .our_color {
+        color: #cee002!important;
+    }
+    
+    .we_present {
+        color: #fff;
+        font-size: 1.5em;
+        text-align: left;
+        vertical-align: baseline;
+        justify-content: flex-start;
+    }
+    
+    .our_dedicated_team {
+        display: grid;
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .our_team {
+        align-items: center;
+        position: relative;
+    }
