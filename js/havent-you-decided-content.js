@@ -42,5 +42,5 @@
             </div>;`;
         }
     }
-    rshowHaventYouContent(haventBlock);
+    showHaventYouContent(haventBlock);
 })()
