@@ -4,12 +4,14 @@
     max-width: 100%;
     margin-top: 15px;
     margin-bottom: 15px;
+    padding-left: 8px;
 	}
 
     .slide {
         width: 100%;
         margin-bottom: 10px;
         position: relative;
+        padding: 16px;
     }
 
     .photo-container {
@@ -68,7 +70,6 @@
         position: absolute;
         bottom: 5px;
     }
-
     @media (min-width: 700px) {
         .cottages-slides {
             grid-template-columns: 1fr 1fr;
@@ -90,3 +91,37 @@
             height: 20vw;
         }
     }
+    .cottages_carousel {
+        position: relative;
+    }
+
+    .cottage-carousel__button {
+        position: absolute;
+        z-index: 10;
+        top: 45%;
+        background: none;
+        border: none;
+        font-size: 2rem;
+        color: rgba(255, 255, 255, .5);
+        cursor: pointer;
+        border-radius: .25rem;
+        padding: 0 .5rem;
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+        .cottage-carousel__button:hover,
+        .cottage-carousel__button:focus {
+        color: white;
+        background-color: rgba(0, 0, 0, 0.603);
+        }
+
+        .cottage-carousel__button:focus {
+        outline: 1px solid black;
+        }
+
+        .cottage-carousel__button.back {
+            left: 8px;
+        }
+
+        .cottage-carousel__button.forward {
+            right: 8px;
+        }
