@@ -69,23 +69,17 @@
         object-fit: contain;
     }
     
-    .h_wearehappy {
-        display: flex;
-        color: #fff;
-        justify-content: space-evenly;
-    }
     
     .our_color_ {
         color: #cee002!important;
     }
     
-    .we_present {
-        color: #fff;
-        font-size: 1.5em;
-        text-align: left;
-        vertical-align: baseline;
-        justify-content: flex-start;
-    }
+    .our_team_present  {	
+        display: grid;
+        grid-template-columns: 8em 8em;
+        border: solid;
+        }
+    
     
     .our_dedicated_team {
         display: grid;
@@ -93,7 +87,4 @@
         text-align: center;
     }
     
-    .our_team {
-        align-items: center;
-        position: relative;
-    }
+    
