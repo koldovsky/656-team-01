@@ -1,7 +1,4 @@
-    .our_team {
-        position: relative;
-    }
-    
+   
     .consultation {
         color: white;
     }
@@ -42,49 +39,67 @@
     
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@500&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-    * {
-        margin: 0%;
-        padding: 0%;
-    }
-    
-    .container_nav {
-        max-width: 1246px;
-        margin: auto;
-    }
-    
-    section.our_dedicated_team {
-        display: flex;
-    }
-    
-    .container_we_are_happy {
-        display: grid;
-        grid-template-columns: 650px 500px;
-    }
-    
-    .img_team {
-        display: inline-block;
-        height: 294px;
-        width: 400px;
-        vertical-align: middle;
-        object-fit: contain;
-    }
-    
     
     .our_color_ {
         color: #cee002!important;
     }
     
-    .our_team_present  {	
-        display: grid;
-        grid-template-columns: 8em 8em;
-        border: solid;
-        }
-    
-    
-    .our_dedicated_team {
-        display: grid;
-        display: inline-block;
-        text-align: center;
+    .our_team_header {
+        font-family: 'Roboto',sans-serif;
+        color: rgb(255, 255, 255);
     }
     
+    @media (min-width: 765px) {
+        .our_team-content {
+            display: grid;
+            grid-column-gap: 10px;
+            grid-template-columns: 1fr 1fr;
+            margin: 0;
+        }
+    }
+    
+    @media (min-width: 1000px) {
+        .our_team-content {
+            display: grid;
+            grid-column-gap: 10px;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin: 0;
+            }
+    }
+    
+    .our_team-content_item {
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        position: relative;
+        padding-top: 17px;
+        padding-bottom: 30px;
+        background: rgba(255, 255, 255, 0.02);
+        font-size: 100%;
+        line-height: 2.5;
+        font-family: 'Poppins', sans-serif;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    @media (min-width: 765px) {
+        .our_team_header {
+            display: grid;
+            gap: 10px;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+    .our_team_header {
+       justify-content: space-around;
+       font-size: 25px; 
+       color: white;
+       font-family: 'Poppins', sans-serif;
+       margin-left: 20px;
+       margin-top: 120px;
+       margin-right: 20px;
+       margin-bottom: 40px;
+       position: static;
+    }
     
