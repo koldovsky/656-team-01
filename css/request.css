@@ -83,6 +83,8 @@
         margin-right: 10px;
         margin-bottom: 10px;
         margin-top: 10px;
+        text-align: center;
+        flex-direction: column;
     }
     @media (min-width: 765px) {
         .our_team_header {
@@ -106,4 +108,10 @@
         margin-left: 20px;
     }
     
-    
+    .img_team {
+        width: 90%;
+        display: block;
+        align-items: center;
+        height: 50%;
+      }
+      
