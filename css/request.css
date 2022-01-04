@@ -74,7 +74,7 @@
         flex-wrap: wrap;
         position: relative;
         padding-top: 17px;
-        padding-bottom: 30px;
+        padding-bottom: 0px;
         background: rgba(255, 255, 255, 0.02);
         font-size: 100%;
         line-height: 2.5;
