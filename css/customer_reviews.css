@@ -2,12 +2,12 @@
     display: flex;
     margin: auto;
     justify-content: center;
-    
+    padding: 80px 0px;
     
   }
   .products-carousel__slide {
   display: flex;
-    
+    padding: 0px 40px;
     
     
   }
@@ -16,7 +16,7 @@
    justify-content: center;
    text-align: center;
    width: 390px;
-   
+   background-color: #FFFFFF08;
   }
   .products-carousel__button {
     border-radius: 50%;
