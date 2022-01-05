@@ -1,0 +1,28 @@
+.products-carousel {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    
+    
+  }
+  .products-carousel__slide {
+  display: flex;
+    
+    
+    
+  }
+  .slider__item {
+   padding: 0px 15px;
+   justify-content: center;
+   text-align: center;
+   width: 390px;
+   
+  }
+  .products-carousel__button {
+    border-radius: 50%;
+    height: 32px;
+    background-color: crimson;
+    margin: auto 5px auto 5px;
+  }
+  
+  
