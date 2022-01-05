@@ -1,6 +1,5 @@
 .cottages-slides {
-	display: grid;
-	grid-template-columns: 1fr;
+	display: flex;
     max-width: 100%;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -97,7 +96,7 @@
     .cottage-carousel__button {
         position: absolute;
         z-index: 10;
-        top: 45%;
+        top: 16vw;
         background: none;
         border: none;
         font-size: 2rem;
