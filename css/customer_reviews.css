@@ -3,7 +3,7 @@
     margin: auto;
     justify-content: center;
     padding: 80px 0px;
-    
+    height: 500px;
   }
   .products-carousel__slide {
   display: flex;
@@ -15,14 +15,34 @@
    padding: 0px 15px;
    justify-content: center;
    text-align: center;
-   width: 390px;
+   width: auto;
+   
    background-color: #FFFFFF08;
   }
   .products-carousel__button {
     border-radius: 50%;
-    height: 32px;
-    background-color: crimson;
-    margin: auto 5px auto 5px;
+    height: 45px;
+    width: 60px;
+    background-color: #cee002;
+    margin: auto 20px auto 20px;
+    }
+    #customer__photo{
+      width: 120px;
+      margin-top: 40px;
+    }
+  #customer__name {
+    color: white;
+    margin-top: 30px;
+  }
+  #customer-reviews__text {
+    font-size: 16px;
+    padding: 30px 20px 30px 20px;
+  }
+  #reviews__date {
+    color: #cee002;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding-top: 30px;
   }
   
   
