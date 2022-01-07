@@ -6,17 +6,24 @@
     height: 500px;
   }
   .products-carousel__slide {
-  display: flex;
+    display: flex;
     padding: 0px 40px;
-    
+    height: 400px;
+  }
+  .slider-box {
+    padding: 0px 15px;
+    width: fit-content;
+    height: auto;
+    display: block;
     
   }
   .slider__item {
-   padding: 0px 15px;
+   
    justify-content: center;
    text-align: center;
-   width: auto;
-   
+   width: fit-content;
+    display: block;
+   padding: 45px 45px 45px 45px;
    background-color: #FFFFFF08;
   }
   .products-carousel__button {
@@ -24,25 +31,41 @@
     height: 45px;
     width: 60px;
     background-color: #cee002;
-    margin: auto 20px auto 20px;
     }
     #customer__photo{
       width: 120px;
-      margin-top: 40px;
+      
     }
   #customer__name {
     color: white;
-    margin-top: 30px;
+    margin-top: 20px;
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
   }
   #customer-reviews__text {
-    font-size: 16px;
-    padding: 30px 20px 30px 20px;
+    
+    margin-top: 20px;
+    font-family: Roboto, sans-serif;
+    font-size: 17px;
+    text-align: justify;
+    font-family: Roboto,sans-serif;
+    display: block;
+    
+    /*height: 150px;*/
+    font-size: inherit;
   }
   #reviews__date {
     color: #cee002;
-    font-weight: bold;
-    box-sizing: border-box;
-    padding-top: 30px;
+    font-family: Roboto, sans-serif;
+    margin-top: 20px;
   }
+  .products-carousel__button.back {
+    margin: 170px -40px 0px 50px;
+  }
+  .products-carousel__button.forward {
+    margin: 170px 50px 0px -40px;
+    
+  }
+
   
   
