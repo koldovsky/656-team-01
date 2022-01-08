@@ -21,10 +21,11 @@
    
    justify-content: center;
    text-align: center;
-   width: fit-content;
+   border-width: inherit;
     display: block;
    padding: 45px 45px 45px 45px;
    background-color: #FFFFFF08;
+   height: inherit;
   }
   .products-carousel__button {
     border-radius: 50%;
