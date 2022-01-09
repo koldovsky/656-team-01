@@ -3,13 +3,14 @@
     max-width: 100%;
     margin-top: 15px;
     margin-bottom: 15px;
-    padding-left: 8px;
 	}
 
     .slide {
         width: 100%;
         margin-bottom: 10px;
         position: relative;
+        margin-left: 8px;
+        margin-right: 8px;
     }
 
     .photo-container {
@@ -78,6 +79,9 @@
             height: 20vw;
             width: 100%;
         }
+        .heading-elements > * {
+            font-size: 13px;  
+        }
     }
     @media (min-width: 991px) {
         .cottages-slides {
@@ -87,6 +91,9 @@
             object-fit: cover;
             width: 32vw;
             height: 20vw;
+        }
+        .heading-elements > * {
+            font-size: 15px;  
         }
     }
     .cottages_carousel {
@@ -121,5 +128,5 @@
         }
 
         .cottage-carousel__button.forward {
-            right: 8px;
+            right: 5px;
         }
