@@ -16,7 +16,7 @@
       <img id="customer__photo" src="img/photo_jeff.webp" alt="photo_jeff">
       <h2 id="customer__name">Jeff Gordons</h2>
       <p id="customer-reviews__text">“We bought the Shast model because we wanted something simple yet proven good. It was one of the best
-        decisions for my family!Thanks for our new favorite place to stay.”
+        decisions for my family!Thanks for our new favoriten
       </p>
       <h5 id="reviews__date">13 JUNE, 2021</h2>
     </article>
