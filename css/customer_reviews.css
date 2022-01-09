@@ -32,6 +32,7 @@
     height: 45px;
     width: 60px;
     background-color: #cee002;
+    cursor: pointer;
     }
     .products-carousel__button.back {
       margin: 170px 20px 0px 50px;
