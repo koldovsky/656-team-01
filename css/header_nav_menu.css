@@ -1,7 +1,7 @@
 .header-nav-logo img{
   width: 220px;
   padding-left: 20px;
-  padding-top: 20px;;
+  padding-top: -20px;
 }
 
 .header__nav{
@@ -13,8 +13,10 @@ padding-left: 20px;
   text-decoration: none;
   color: #bababa;
   font-family: 'Roboto', sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: bold;
+  padding-left: 150px;
+  padding-top: 25px;
 }
 
 .header-nav-menu-item:hover{
@@ -23,10 +25,13 @@ padding-left: 20px;
 .header__top-nav-phone-call-us{
   color: rgb(206, 224, 2);
   font-family: 'Roboto', sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: bold;
+  padding-left: 90px;
 }
-
+.phone_number{
+  margin-top: 20px;
+}
 .phone_number a{
   text-decoration: none;
   color: #bababa;
@@ -100,6 +105,26 @@ height: 55px;
 }
 
 @media (min-width: 900px){
+  .phone_number{
+    margin-top: 0px;
+  }
+  .header__top-nav-phone-call-us{
+    color: rgb(206, 224, 2);
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+  .header-nav-menu-item{
+    text-decoration: none;
+    color: #bababa;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 0px;
+  padding-top: 0px;
+  }
   .header-nav-menu > .container_nav{
      display: flex;
      max-height: 100px;
