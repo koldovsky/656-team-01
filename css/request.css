@@ -59,7 +59,7 @@
     }
     
     @media (min-width: 765px) {
-        .our_team-content {
+        .our_team_content {
             display: grid;
             grid-column-gap: 10px;
             grid-template-columns: 1fr 1fr;
@@ -68,7 +68,7 @@
     }
     
     @media (min-width: 1000px) {
-        .our_team-content {
+        .our_team_content {
             display: grid;
             grid-column-gap: 10px;
             grid-template-columns: 1fr 1fr 1fr;
@@ -76,7 +76,7 @@
             }
     }
     
-    .our_team-content_item {
+    .our_team_content_item {
         padding: 10px;
         display: flex;
         align-items: center;
