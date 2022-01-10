@@ -1,25 +1,53 @@
-#burger-checkbox {
-    display: none;
+.burger-menu{
+    display: flex;
+    justify-content: flex-end;
+}
+.header-nav-button{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    top: 30px;
+    right: 20px;
+}
+.header-nav-button span{
+    width: 25px;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    transition: all 0.5s;
 }
 
-.burger-icon {
-    font-size: 2rem;
-    color: white;
-    float: right;
-    padding-top: 15px;
-    padding-right: 20px;
+.header-nav-button span:nth-of-type(2){
+    top: calc(50% - 8px);
+}
+.header-nav-button span:nth-of-type(3){
+    top: calc(50% + 8px);
+}
+.header-nav-button.active span:nth-of-type(1){
+transform: translateX(100%);
 }
 
+.header-nav-button.active span:nth-of-type(2){
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.header-nav-button.active span:nth-of-type(3){
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
 .header__nav {
     display: none;
 }
-
-#burger-checkbox:checked ~ .header__nav {
+.header__nav.active{
     display: flex;
 }
-
 @media (min-width: 600px) {
-    .burger-icon {
+    .header-nav-button{
         display: none;
     }
     .header__nav {
