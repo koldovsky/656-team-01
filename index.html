@@ -172,7 +172,56 @@
                 Before starting the construction of your future home, we create
                 a detailed design project.
               </p>
-              <a href="contact-rm"> Get it for free→</a>
+              <div class="button">
+                <a class="testBut" data-modal-id="#typeModal_2">
+                  Get it for free→
+                </a>
+                <div id="typeModal_2" class="modalWrapper">
+                  <div class="backBlack"></div>
+                  <div class="modalContent">
+                    <button class="butExit">
+                      &#10006;
+                    </button>
+                    <div class="contentBlock">
+                      <div class="headigModal"></div>
+                      <form class="modalForm" id="my-form" action="https://formspree.io/f/xzbozayy"  method="POST">
+                        <p class="contact-form_title">Contact us</p>
+                        <p class="contact-form_description"></p>
+                        <div class="contact-form_input-wrapper">
+                          <input name="full_name" type="text" class="contact-insert"
+                            required placeholder="   Your Name*" />
+                        </div>
+                        <div class="contact-form_input-wrapper">
+                          <input name="phone-namber" type="tel" id="phone_number"
+                            class="contact-insert" required placeholder="   Phone number*" />
+                        </div>
+                        <div class="contact-form_input-wrapper">
+                          <input name="mail" type="email" id="mail"
+                            class="contact-insert" required placeholder="   Email*" />
+                        </div>
+                        <div class="contact-form_input-wrapper">
+                          <textarea name="text"  class="contact-insert" placeholder="   Your Massage*" data-req=""></textarea>
+                        </div>
+                        <button class="contactButton" type="submit" data-modal-id="#sabmitModal_7">
+                          Request a quote
+                        </button>
+                        <p id="my-form-status"></p>
+                        <div class="modal">
+                          <div class="modal__content">
+                            <button class="exitBut">
+                              &#10006;
+                            </button>
+                            <img class="modal_img" src="./img/checking.png" width="25" alt="" />
+                            <h1 class="modal__title">Thank you!</h1>
+                            <p class="modal__description">We will contact you shortly.</p>
+                            <button class="modal__close-button_ok">Ok</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </header>
@@ -382,6 +431,9 @@
   <script src="js/customer-slider.js"></script>
   <script src="js/header-nav-burger.js"></script>
   <script src="js/modal-window.js"></script>
+  <script src="js/formspre.js"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/thanks-modal.js"></script>
 </body>
 
 </html>

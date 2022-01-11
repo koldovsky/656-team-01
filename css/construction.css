@@ -79,5 +79,10 @@
 .constracrion-section__header-media-item_text {
     margin-left: 20px;
 }
+.testBut {
+    color: rgb(206, 224, 2);
+    font-size: 17px;
+    cursor: pointer;
+}
     
  
