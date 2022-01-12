@@ -5,11 +5,11 @@
     justify-content: space-around;    
 }
 
-.link-read-more-consulting {
-    background-image: url(../img/service1.png) ;
+.new-image-consulting {
+    /* background-image: url(../img/sladder.png) ;
     background-size: cover;
-    background-position: center;
-    min-height: 400px;
+    background-position: center; */
+    height: 450px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,31 +17,31 @@
     justify-self: center;
 }
 
-.link-read-more-restoration {
-    background-image: url(../img/serv7.png);
+.new-image-restoration {
+    /* background: url(../img/srestoration.png);
     background-size: cover;
-    background-position: center;
-    min-height: 400px;
+    background-position: center; */
+    height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.link-read-more-new-home {
-    background-image: url(../img/serv6.png);
+.new-image-new-home {
+    /* background: url(../img/shouse.png);
     background-size: cover;
-    background-position: center;
-    min-height: 400px;
+    background-position: center; */
+    height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.link-read-more-interior {
-    background-image: url(../img/service5.png);
+.new-image-interior {
+    /* background: url(../img/sfurniture.png);
     background-size: cover;
-    background-position: center;
-    min-height: 400px;
+    background-position: center; */
+    height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;

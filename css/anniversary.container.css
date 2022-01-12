@@ -1,0 +1,24 @@
+.anniversary-container{
+    background-color:#23262d;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content:space-evenly ;
+    color: rgb(132 132 132);
+}
+.yellow-letters{
+    color: #cee002;
+}
+.anniversary{ 
+    display: flex;
+    background:rgba(255, 255, 255, 0.02);
+    padding: 20px 60px 20px 40px;
+
+}
+.logo-20{
+margin:20px 50px 20px 10px;
+}
+.years-of-professional{
+margin:0px 0px 0px 0px;
+color: white;
+}
+
